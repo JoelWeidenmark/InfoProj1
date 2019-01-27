@@ -389,7 +389,7 @@ function calculateInterests(inArray){
     if(lower.includes("media") || lower.includes("youtube") || lower.includes("news")){
       interestsCounter[8]++;
     }
-    if(lower.includes("food") || lower.includes("baking") || lower.includes("bake")){
+    if(lower.includes("food") || lower.includes("baking") || lower.includes("bake") || lower.includes("cooking")){
       interestsCounter[9]++;
     }
     if(lower.includes("computer") || lower.includes("software")){
