@@ -15,6 +15,22 @@
 	border-width: 1px;
 }
 
+.selector{
+	width: 100%;
+}
+
+#toUserList{
+	width: 100%;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+#applyFilter{
+	margin-top: 5px;
+	width: 100%;
+	text-align: center;
+}
+
 #graphContainer{
 	min-height: 700px;
 	border-style: solid;
@@ -25,19 +41,35 @@
 #filterContainer{
 	border-style: solid;
 	border-width: 1px;
-	height: 40px;
+	height: 90px;
 }
 
 
 .groupDiv{
 	background-color: "red";
-	min-height: 50px;
+	min-height: 400px;
+	max-height: 400px;
 	padding-bottom: 10px;
 	padding-top: 10px;
 	margin-bottom: 5px;
+	overflow: scroll;
+	border-color: black;
 }
 
 .groupText{
 	width: 80px;
 	float: left;
 }
+
+.groupGraph{
+	min-height: 400px;
+	max-height: 400px;
+	margin-bottom: 5px;
+	overflow: scroll;
+}
+
+.bar-chart {
+    background-color: #C7D9D9;
+}
+
+.bar { fill: steelblue; }
